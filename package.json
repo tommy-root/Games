@@ -1,0 +1,17 @@
+{
+  "name": "firstgame",
+  "version": "1.0.0",
+  "description": "My first video game code for html.",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo src/main.js:build.js --live"
+  },
+  "author": "Tommytron9000",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "budo": "^11.5.0"
+  }
+}
